@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>时光书函：我们的故事</title>
+    <!-- Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Noto+Serif+SC:wght@300;400;600;900&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="./assets/index-0rN_Nmmn.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DFK_6TBb.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <!-- Replace img path to a correct path from public/assets/img using the dev server proxy or direct path depends on vite configs -->
+        <div class="hero-bg" style="background-image: url('assets/img/%E5%A4%A9%E7%9B%AE1.JPG');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content parallax-element">
+            <h1 class="hero-title">Time Letter</h1>
+            <p class="hero-subtitle">时光书函 · 我们的第二年</p>
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <div class="line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Navigation -->
+    <nav class="sticky-nav">
+        <ul>
+            <li><a href="#hero">序言</a></li>
+            <li><a href="#gallery">光影记忆</a></li>
+            <li><a href="#footer">尾声</a></li>
+        </ul>
+    </nav>
+
+    <!-- Masonry Gallery -->
+    <section class="gallery-section" id="gallery">
+        <div class="section-header">
+            <h2 class="section-title">Memory Fragments</h2>
+            <p class="section-desc">每一帧都是被定格的浪漫</p>
+        </div>
+        
+        <div class="masonry-grid" id="masonry-container">
+            <!-- Items injected by JS or hardcoded -->
+            <div class="masonry-item animate-up"><img src="./assets/img/p3-1.jpg" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">广州之行</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/广州塔.jpg" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">广州塔夜景</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/p4-1.jpg" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">重庆</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/沙坪坝.jpg" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">沙坪坝</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/天目1.JPG" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">无尽的山野</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/p5-1.jpg" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">欢笑</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/蛋糕.JPG" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">生日快乐</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/p6-1.jpg" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">毕业季</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/给你拍照.JPG" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">日常絮语</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/p7-1.jpg" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">黄山</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/朝天门.jpg" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">朝天门风光</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/p8-1.jpg" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">相伴</span></div></div>
+            <div class="masonry-item animate-up"><img src="./assets/img/p20-1.jpg" alt="Memory" loading="lazy"><div class="item-overlay"><span class="item-caption">永远在一起</span></div></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <h3>家灏 & 佩佩</h3>
+            <p>To be continued...</p>
+        </div>
+    </footer>
+
+    <!-- Fullscreen Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-bg"></div>
+        <button class="lightbox-close" id="lightbox-close">×</button>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Zoomed memory">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+</body>
+</html>

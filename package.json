@@ -1,0 +1,26 @@
+{
+  "name": "time-letter-project",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^5.0.0",
+    "vite-plugin-handlebars": "^1.6.0",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "exifr": "^7.1.3",
+    "fast-glob": "^3.3.3",
+    "node-fetch": "^3.3.2",
+    "sharp": "^0.34.5",
+    "sqlite3": "^5.1.7"
+  }
+}
