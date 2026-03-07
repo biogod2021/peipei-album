@@ -57,5 +57,5 @@ A personalized vertical timeline story web gallery built for "家灏 & 佩佩" t
 
 ## TODOs / Known Issues
 
-*   [ ] Fix or remove broken tests in `src/tests/` that reference the missing `agents/` directory.
+*   [x] Fix or remove broken tests in `src/tests/` that reference the missing `agents/` directory.
 *   [ ] Clean up `src/node_modules/` if it was accidentally tracked by git (as suggested by `git ls-files`).

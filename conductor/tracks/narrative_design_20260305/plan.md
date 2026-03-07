@@ -1,13 +1,9 @@
 # Implementation Plan: Comprehensive Narrative Design (Scrapbook Edition)
 
 ## Phase 1: Scrapbook UI & Interaction Foundation
-- [ ] Task: Select and Implement Handwritten-Style Fonts.
-    - [ ] Find and load a warm, personal Chinese font (e.g., ZCOOL XiaoWei).
-    - [ ] Configure `main.css` to use this font for all photo annotations.
-- [ ] Task: Implement the "Sticky Note" CSS Component.
-    - [ ] Create a reusable CSS class for the "sticky note" or "handwritten label" look.
-    - [ ] Implement randomized rotation (-2deg to 2deg) for grid items to mimic a manual scrapbook.
-- [ ] Task: Implement "Revealing Inner-Thought" Logic & Tests.
+- [x] Task: Select and Implement Handwritten-Style Fonts. [833c2a9]
+- [x] Task: Implement the "Sticky Note" CSS Component. [8648e08]
+- [~] Task: Implement "Revealing Inner-Thought" Logic & Tests.
     - [ ] Write a text-parsing utility with tests to split filename text into "Main" and "Inner" (parentheses) parts.
     - [ ] Implement the hover/tap logic to reveal the inner monologue with a "scratch" or "ink-reveal" effect.
 - [ ] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md)
