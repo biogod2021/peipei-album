@@ -1,4 +1,5 @@
 import { narrativeConfig } from './narrative_config.js';
+import { parseInnerThoughts } from './scripts/narrative_utils.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     renderGallery();
@@ -30,13 +31,22 @@ function renderGallery() {
                     <div class="photo-grid">
                         ${section.images.map(img => {
                             const rotation = (Math.random() * 4 - 2).toFixed(1); // -2deg to 2deg
+                            const { main, inner } = parseInnerThoughts(img.desc);
+                            const innerThoughtHtml = inner ? `
+                                <div class="inner-thought-container">
+                                    <span class="inner-thought-trigger">💭</span>
+                                    <span class="inner-thought-text">${inner}</span>
+                                </div>
+                            ` : '';
+
                             return `
                                 <div class="grid-item" style="transform: rotate(${rotation}deg)">
                                     <div class="time-photo">
                                         <img src="/assets/img/stories/${section.name}/${img.src}" alt="${img.desc}" loading="lazy">
                                     </div>
                                     <div class="sticky-note">
-                                        <span class="photo-desc">${img.desc}</span>
+                                        <span class="photo-desc">${main}</span>
+                                        ${innerThoughtHtml}
                                     </div>
                                 </div>
                             `;

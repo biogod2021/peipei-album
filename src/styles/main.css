@@ -294,9 +294,49 @@ html {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     transform: rotate(-1deg);
     border-radius: 2px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 90%;
     margin: 10px auto;
+}
+
+.inner-thought-container {
+    margin-top: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.inner-thought-trigger {
+    font-size: 1.2rem;
+    filter: grayscale(1);
+    transition: filter 0.3s ease;
+}
+
+.inner-thought-text {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-10px);
+    background: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 100;
+}
+
+.inner-thought-container:hover .inner-thought-text {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-5px);
+}
+
+.inner-thought-container:hover .inner-thought-trigger {
+    filter: grayscale(0);
 }
 
 /* Lightbox Enhancements */

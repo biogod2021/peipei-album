@@ -30,4 +30,14 @@ describe('UI Styles', () => {
     expect(stickyNoteStyles).toContain('padding:');
     expect(stickyNoteStyles).toContain('transform: rotate');
   });
+
+  it('should have styles for revealing inner thoughts', () => {
+    const cssPath = path.resolve(__dirname, '../styles/main.css');
+    const cssContent = fs.readFileSync(cssPath, 'utf8');
+    
+    expect(cssContent).toContain('.inner-thought-container');
+    expect(cssContent).toContain('.inner-thought-text');
+    expect(cssContent).toContain('opacity: 0');
+    expect(cssContent).toContain(':hover .inner-thought-text');
+  });
 });
