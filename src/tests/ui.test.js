@@ -14,4 +14,20 @@ describe('UI Styles', () => {
     const photoDescStyles = photoDescMatch[0];
     expect(photoDescStyles).toContain('font-family: var(--font-accent)');
   });
+
+  it('should have a sticky-note component style', () => {
+    const cssPath = path.resolve(__dirname, '../styles/main.css');
+    const cssContent = fs.readFileSync(cssPath, 'utf8');
+    
+    // Check for .sticky-note class
+    expect(cssContent).toContain('.sticky-note');
+    
+    const stickyNoteMatch = cssContent.match(/\.sticky-note\s*\{[^}]+\}/);
+    expect(stickyNoteMatch).not.toBeNull();
+    
+    const stickyNoteStyles = stickyNoteMatch[0];
+    expect(stickyNoteStyles).toContain('background:');
+    expect(stickyNoteStyles).toContain('padding:');
+    expect(stickyNoteStyles).toContain('transform: rotate');
+  });
 });
