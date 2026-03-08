@@ -100,7 +100,7 @@ export const narrativeConfig = {
               tags: ["foodie"]
             },
             { 
-              src: "还记得这个甜品吗，我们再西华路一起吃的，叫啥我都忘了，但我记得是佩佩点的，超好吃！最喜欢和佩佩一起吃甜品了.jpg", 
+              src: "gz_dessert_memory.jpg", 
               desc: "虽然忘了名字，但记得那份甜蜜，更记得你点单时的样子 🥰",
               tags: ["foodie"]
             },
@@ -127,12 +127,12 @@ export const narrativeConfig = {
           name: "25年2月-重庆之旅",
           images: [
             { 
-              src: "正所谓，有来必有往，这回轮到我去小佩佩长大的地方——重庆啦！！！重庆是什么样子的呢，黄色法拉利到底有多快，交通到底有多4d，超级期待的！！！！（刚好遇到摸鱼科室实习可以轻松点）.jpg", 
+              src: "cq_arrival_vibe.jpg", 
               desc: "正所谓，有来必有往，这回轮到我去小佩佩长大的地方——重庆啦！！！（刚好遇到摸鱼科室实习可以轻松点 🚕💨）",
               layout: "sticky-note"
             },
             { 
-              src: "期待了这么久，想象了这么久，终于第一次来到了小佩佩长大的地方！！！沙坪坝！！！！感觉重庆巴适得很！！！！.jpg", 
+              src: "cq_shapengba_first.jpg", 
               desc: "期待了这么久，想象了这么久，终于第一次来到了小佩佩长大的地方！！！沙坪坝！！！！感觉重庆巴适得很！！！！",
               layout: "polaroid"
             },
@@ -559,7 +559,7 @@ export const narrativeConfig = {
           name: "7月-长沙之旅",
           images: [
             { 
-              src: "于是就和小佩佩来到了长沙！！！这是我们在长沙吃的第一餐湖南菜！！！似乎又被小佩佩请了，但是真的超香超好吃！！！（我居然意料之外地能吃辣）.jpg", 
+              src: "cs_spicy_dinner.jpg", 
               desc: "于是就和小佩佩来到了长沙！！！这是我们在长沙吃的第一餐湖南菜！！！似乎又被小佩佩请了，但是真的超香超好吃！！！（我居然意料之外地能吃辣 🌶️😋）",
               tags: ["foodie"],
               layout: "highlight"
@@ -816,7 +816,7 @@ export const narrativeConfig = {
               layout: "polaroid"
             },
             { 
-              src: "人声目标之一，拉小佩佩和我爸妈一起吃早茶，实现啦！！！下一个目标——和小佩佩爸妈一起吃火锅！2026-01-11_IMG_3913.jpg", 
+              src: "gz_dimsum_with_parents.jpg", 
               desc: "人生目标之一，拉小佩佩和我爸妈一起吃早茶，实现啦！！！下一个目标——和小佩佩爸妈一起吃火锅！🍲",
               tags: ["foodie"],
               layout: "sticky-note"
