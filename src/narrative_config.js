@@ -34,7 +34,7 @@ export const narrativeConfig = {
               layout: "tilt-left"
             },
             { 
-              src: "这是这份礼物的开始哦！我答应过佩佩的，就一定会做到！（虽然确实有点晚，心虚）.JPG", 
+              src: "这是这份礼物的开始哦我答应过_148a45.JPG", 
               desc: "这是这份礼物的开始哦！我答应过佩佩的，就一定会做到！（虽然确实有点晚，心虚 🎁🫣）",
               layout: "sticky-note"
             },
@@ -79,7 +79,7 @@ export const narrativeConfig = {
               layout: "tilt-right"
             },
             { 
-              src: "带小佩佩吃心心念念的牛肉火锅！！！（一不小心挑到一家性价比巨高的，吃到我们似乎是扶着墙出去的）.jpg", 
+              src: "带小佩佩吃心心念念的牛肉火锅_779fdd.jpg", 
               desc: "心心念念的牛肉火锅！！（由于太好吃，最后只能扶着墙出门了 🐂🔥）",
               tags: ["foodie"],
               emotions: ["joy"]
@@ -90,7 +90,7 @@ export const narrativeConfig = {
               layout: "highlight"
             },
             { 
-              src: "这是南越王博物馆的护符，幸福就是带着小佩佩一起参观我们最喜欢的博物馆！.jpg", 
+              src: "这是南越王博物馆的护符幸福就_b7a035.jpg", 
               desc: "南越王博物馆的护符：最简单的幸福，就是和你逛遍博物馆 🏺❤️",
               layout: "sticky-note"
             },
@@ -105,7 +105,7 @@ export const narrativeConfig = {
               tags: ["foodie"]
             },
             { 
-              src: "小佩佩轻的一餐饭，超好吃的！！！这个叉烧是我吃过最好吃的叉烧之一！.jpg", 
+              src: "小佩佩轻的一餐饭超好吃的_eb2a8d.jpg", 
               desc: "这顿饭吃得很轻快，但这叉烧绝对是我的“叉烧排行榜”前三！🐷🥢",
               tags: ["foodie"]
             }
@@ -141,12 +141,12 @@ export const narrativeConfig = {
               desc: "龙门浩！美丽的很！！！但是没有我们的小佩佩美！！！✨"
             },
             { 
-              src: "重庆市人民大礼堂！！！（第一次看到真的被震惊了，你看我，头发都被震起来了）.jpg", 
+              src: "重庆市人民大礼堂第一次_ca6f76.jpg", 
               desc: "重庆市人民大礼堂！！！（第一次看到真的被震惊了，你看我，头发都被震起来了 🏢🤯）",
               emotions: ["shocked"]
             },
             { 
-              src: "朝天门大桥的亲亲！！！（似乎被嫌弃了呢呜呜呜，不过这张照片拍得确实丑）.jpg", 
+              src: "朝天门大桥的亲亲似乎被_d16f06.jpg", 
               desc: "朝天门大桥的亲亲！！！（似乎被嫌弃了呢呜呜呜，不过这张照片拍得确实丑 😭）",
               layout: "tilt-right"
             },
@@ -162,12 +162,12 @@ export const narrativeConfig = {
               layout: "sticky-note"
             },
             { 
-              src: "临走前来吃小佩佩最喜欢吃的小丸子！！！（原来沙坪坝全是小丸子，难怪小佩佩喜欢吃）.jpg", 
+              src: "临走前来吃小佩佩最喜欢吃的小丸_a2a1e2.jpg", 
               desc: "临走前来吃小佩佩最喜欢吃的小丸子！！！（原来沙坪坝全是小丸子，难怪小佩佩喜欢吃🍡）",
               tags: ["foodie"]
             },
             { 
-              src: "舍命陪小佩佩吃重庆小面，不过重庆辣感觉还好！很香（尤其是之后体验过江西辣之后）.jpg", 
+              src: "舍命陪小佩佩吃重庆小面不过重_88dced.jpg", 
               desc: "舍命陪小佩佩吃重庆小面，不过重庆辣感觉还好！很香（尤其是之后体验过江西辣之后 🍜🌶️）",
               tags: ["foodie"]
             }
@@ -186,7 +186,7 @@ export const narrativeConfig = {
           name: "3月-长风公园-答应好的外拍",
           images: [
             { 
-              src: "感觉这次出去拍得最好的一张！！！！超级美！！！！（美呆了！美晕了！！完了我老婆怎么这么美！！！）.jpg", 
+              src: "感觉这次出去拍得最好的一张_47e894.jpg", 
               desc: "感觉这次出去拍得最好的一张！！！！超级美！！！！（美呆了！美晕了！！完了我老婆怎么这么美！！！）",
               layout: "polaroid",
               emotions: ["love"]
@@ -265,7 +265,7 @@ export const narrativeConfig = {
           name: "4月-临安-天目山之行",
           images: [
             { 
-              src: "小佩佩的经典姿势！！！（超级可爱！！！！啊啊啊啊！！！心要化了！！！）.jpg", 
+              src: "小佩佩的经典姿势超级可_a53eb2.jpg", 
               desc: "小佩佩的经典姿势！！！（超级可爱！！！！啊啊啊啊！！！心要化了！！！❤️）",
               layout: "polaroid",
               emotions: ["love"]
@@ -386,12 +386,12 @@ export const narrativeConfig = {
               layout: "polaroid"
             },
             { 
-              src: "感谢佩佩老板请的缆车！！！（还是老婆大人英名，走下去腿应该都快断了）.jpg", 
+              src: "感谢佩佩老板请的缆车还_a26ae2.jpg", 
               desc: "感谢佩佩老板请的缆车！！！（还是老婆大人英名，走下去腿应该都快断了 🚠🤕）",
               layout: "sticky-note"
             },
             { 
-              src: "和小佩佩一起开始爬天都峰！！（此刻的我们还没有意识到，噩梦即将开始）.jpg", 
+              src: "和小佩佩一起开始爬天都峰_fb225c.jpg", 
               desc: "和小佩佩一起开始爬天都峰！！（此刻的我们还没有意识到，噩梦即将开始 🧗‍♂️💀）",
               emotions: ["shocked"]
             },
@@ -433,7 +433,7 @@ export const narrativeConfig = {
               desc: "到了宏村，那就是洪福齐天！！！🏮" 
             },
             { 
-              src: "和小佩佩在宏村的小河旁拍的照片！（我的天啊，真的太美了，瑞士都没有这里漂亮，感觉）.jpg", 
+              src: "和小佩佩在宏村的小河旁拍的照片_f2f50b.jpg", 
               desc: "和小佩佩在宏村的小河旁拍的照片！（我的天啊，真的太美了，瑞士都没有这里漂亮，感觉 ✨）",
               layout: "polaroid"
             },
@@ -453,7 +453,7 @@ export const narrativeConfig = {
           name: "6月-南昌之旅",
           images: [
             { 
-              src: "和美丽的小佩佩来到了南昌!!!(照片中看得还好，实际上已经快热晕过去了).jpg", 
+              src: "和美丽的小佩佩来到了南昌_9c348e.jpg", 
               desc: "和美丽的小佩佩来到了南昌!!!(照片中看得还好，实际上已经快热晕过去了 🥵)",
               layout: "sticky-note"
             },
@@ -515,7 +515,7 @@ export const narrativeConfig = {
           name: "7月-正安支教",
           images: [
             { 
-              src: "刚到正安！（和小佩佩一起吃当地特色羊肉粉！！）（结果后面几天发现好像当地就这东西可以吃）.jpg", 
+              src: "刚到正安和小佩佩一起吃当地_889e5e.jpg", 
               desc: "刚到正安！（和小佩佩一起吃当地特色羊肉粉！！）（结果后面几天发现好像当地就这东西可以吃 🍜）",
               tags: ["foodie"],
               layout: "polaroid"
@@ -574,7 +574,7 @@ export const narrativeConfig = {
               tags: ["foodie"]
             },
             { 
-              src: "在小佩佩的极力推荐之下！我们来到了长沙文和友！我也是第一次知道有这宗地方，真的是震惊到我！.jpg", 
+              src: "在小佩佩的极力推荐之下我们来_fc078e.jpg", 
               desc: "在小佩佩的极力推荐之下！我们来到了长沙文和友！我也是第一次知道有这宗地方，真的是震惊到我！😲",
               layout: "tilt-left"
             },
@@ -644,7 +644,7 @@ export const narrativeConfig = {
           name: "10月-金华义乌之旅",
           images: [
             { 
-              src: "我们也算来到了世界商品之都——义乌，这是千挑万选最后选到性价比最高的两只拉布布的快乐小佩！.jpg", 
+              src: "我们也算来到了世界商品之都_abc963.jpg", 
               desc: "我们也算来到了世界商品之都——义乌，这是千挑万选最后选到性价比最高的两只拉布布的快乐小佩！🛍️",
               layout: "polaroid"
             },
@@ -731,7 +731,7 @@ export const narrativeConfig = {
               layout: "highlight"
             },
             { 
-              src: "小佩宠物！（小佩佩就是我的小宠物！！！最最最宠的小宠物！！！老婆！！！！）.jpg", 
+              src: "小佩宠物小佩佩就是我的小宠_950b87.jpg", 
               desc: "小佩宠物！（小佩佩就是我的小宠物！！！最最最宠的小宠物！！！老婆！！！！🐶❤️）",
               layout: "sticky-note",
               emotions: ["love"]
@@ -780,7 +780,7 @@ export const narrativeConfig = {
               layout: "highlight"
             },
             { 
-              src: "虽然没有拍到光荣榜，但是不用光荣榜，我一直都相信小佩佩能够做到所有自己想做的事情！2025-12-14_IMG_3677.jpg", 
+              src: "虽然没有拍到光荣榜但是不用光_22ca28.jpg", 
               desc: "虽然没有拍到光荣榜，但是不用光荣榜，我一直都相信小佩佩能够做到所有自己想做的事情！✨",
               layout: "sticky-note"
             },
@@ -811,7 +811,7 @@ export const narrativeConfig = {
           name: "1月-小佩佩的广州梅开二度",
           images: [
             { 
-              src: "浓浓的夜色笼罩着沉睡的广州城，小佩佩又一次来到广州啦！这一次我终于把小佩佩拐来我家了2026-01-09_IMG_3785.jpg", 
+              src: "浓浓的夜色笼罩着沉睡的广州城_eb0130.jpg", 
               desc: "浓浓的夜色笼罩着沉睡的广州城，小佩佩又一次来到广州啦！这一次我终于把小佩佩拐来我家了 🏠",
               layout: "polaroid"
             },
@@ -826,7 +826,7 @@ export const narrativeConfig = {
               desc: "小佩佩送我妈妈的花！我妈超喜欢的！！！💐" 
             },
             { 
-              src: "来广州，甘海要吃这只晶莹剔透散发着玉石珠宝光泽的白切鸡啦2026-01-09_IMG_6457.jpg", 
+              src: "来广州甘海要吃这只晶莹剔透散_b3658e.jpg", 
               desc: "来广州，怎么能不吃这只晶莹剔透散发着玉石珠宝光泽的白切鸡啦 🐔",
               tags: ["foodie"]
             },
@@ -1071,7 +1071,7 @@ export const narrativeConfig = {
               layout: "highlight"
             },
             { 
-              src: "吃得喜笑颜开的小佩佩！二十一份的绵绵冰吃得咱们的小佩佩爽歪歪2026-01-24_IMG_4151.jpg", 
+              src: "吃得喜笑颜开的小佩佩二十一份_1b3837.jpg", 
               desc: "吃得喜笑颜开的小佩佩！二十一份的绵绵冰吃得咱们的小佩佩爽歪歪 🍧",
               tags: ["foodie"],
               layout: "sticky-note"
