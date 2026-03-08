@@ -22,7 +22,8 @@ describe('UI Styles', () => {
     // Check for .sticky-note class
     expect(cssContent).toContain('.sticky-note');
     
-    const stickyNoteMatch = cssContent.match(/\.sticky-note\s*\{[^}]+\}/);
+    // Match the exact .sticky-note block, not a nested one like .layout-polaroid .sticky-note
+    const stickyNoteMatch = cssContent.match(/(?:^|\n)\.sticky-note\s*\{[^}]+\}/);
     expect(stickyNoteMatch).not.toBeNull();
     
     const stickyNoteStyles = stickyNoteMatch[0];
