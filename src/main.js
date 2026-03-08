@@ -60,7 +60,7 @@ function renderGallery() {
                                 <div class="grid-item ${layoutClasses.join(' ')}" style="transform: rotate(${rotation}deg)">
                                     ${stampHtml}
                                     <div class="time-photo">
-                                        <img src="/assets/img/stories/${section.name}/${img.src.replace(/\.HEIC\.jpg$/i, '.HEIC').replace(/\.PNG\.jpg$/i, '.PNG')}" alt="${img.desc}" loading="lazy">
+                                        <img src="/assets/img/stories/${section.name}/${img.src}" alt="${img.desc}" loading="lazy">
                                     </div>
                                     <div class="sticky-note">
                                         <span class="photo-desc">${main}</span>
