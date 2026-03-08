@@ -30,8 +30,25 @@ function renderGallery() {
                     <h4 class="folder-name">${section.name}</h4>
                     <div class="photo-grid">
                         ${section.images.map(img => {
-                            const rotation = (Math.random() * 4 - 2).toFixed(1); // -2deg to 2deg
+                            let rotation = (Math.random() * 4 - 2).toFixed(1); // -2deg to 2deg default
                             const { main, inner } = parseInnerThoughts(img.desc);
+                            
+                            // Process layout classes
+                            let layoutClasses = [];
+                            if (img.layout) {
+                                if (img.layout === 'polaroid') layoutClasses.push('layout-polaroid');
+                                if (img.layout === 'sticky-note') layoutClasses.push('layout-sticky-note');
+                                if (img.layout === 'highlight') layoutClasses.push('layout-highlight');
+                                if (img.layout === 'tilt-left') rotation = -4;
+                                if (img.layout === 'tilt-right') rotation = 4;
+                            }
+                            
+                            // Process tags
+                            let stampHtml = '';
+                            if (img.tags && img.tags.includes('foodie')) {
+                                stampHtml = `<div class="foodie-stamp">美味<br>印记</div>`;
+                            }
+
                             const innerThoughtHtml = inner ? `
                                 <div class="inner-thought-container">
                                     <span class="inner-thought-trigger">💭</span>
@@ -40,9 +57,10 @@ function renderGallery() {
                             ` : '';
 
                             return `
-                                <div class="grid-item" style="transform: rotate(${rotation}deg)">
+                                <div class="grid-item ${layoutClasses.join(' ')}" style="transform: rotate(${rotation}deg)">
+                                    ${stampHtml}
                                     <div class="time-photo">
-                                        <img src="/assets/img/stories/${section.name}/${img.src}" alt="${img.desc}" loading="lazy">
+                                        <img src="/assets/img/stories/${section.name}/ai_preview/${img.src}" alt="${img.desc}" loading="lazy">
                                     </div>
                                     <div class="sticky-note">
                                         <span class="photo-desc">${main}</span>
