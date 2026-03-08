@@ -14,5 +14,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [~] **Track: Comprehensive Narrative Design (Scrapbook Edition) based on photo filenames and story text.**
+- [x] **Track: Comprehensive Narrative Design (Scrapbook Edition) based on photo filenames and story text.**
 *Link: [./tracks/narrative_design_20260305/](./tracks/narrative_design_20260305/)*
