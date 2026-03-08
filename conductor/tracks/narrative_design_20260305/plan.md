@@ -19,10 +19,10 @@
     - [x] 08. 深度阅读: `1月-小佩佩在普宁`, `1月-小佩佩的广州梅开二度`, `1月-小佩佩的香港梅开二度`
     - [x] 09. 深度阅读: `00_supplement`
     - [x] 将阅读感悟、内心戏（括号文字）和情绪权重完整注入 `narrative_config.js`。
-- [ ] Task: Content & Design Optimization (基于阅读感悟).
-    - [ ] 根据照片的情感比重，优化剪贴簿的排版、间距和分组（例如：给特别重要的照片更大的画幅或特殊的相框）。
-    - [ ] 优化文字的视觉呈现（如何让长篇故事与简短便签更好地融合）。
-    - [ ] Implement "Foodie Highlighter" Stamp（“吃货”专属视觉印章）。
+- [x] Task: Content & Design Optimization (基于阅读感悟). [9be4d3b]
+    - [x] 根据照片的情感比重，优化剪贴簿的排版、间距和分组（例如：给特别重要的照片更大的画幅或特殊的相框）。
+    - [x] 优化文字的视觉呈现（如何让长篇故事与简短便签更好地融合）。
+    - [x] Implement "Foodie Highlighter" Stamp（“吃货”专属视觉印章）。
 - [ ] Task: Conductor - User Manual Verification 'Phase 2' (Protocol in workflow.md)
 
 ## Phase 3: Narrative Power-Ups (Particles & Mirrors)
